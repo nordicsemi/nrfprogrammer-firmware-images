@@ -7,7 +7,7 @@
   "tags": ["nrf cloud", "mds", "ota"],
   "versions": [
     {
-      "version": "3.1.1.100",
+      "version": "3.1.1",
       "release_notes": "Initial release from NCS 3.1.1. This version can be updated to 3.1.1.200 using nRF Cloud OTA.",
       "requires_bonding": true,
       "links": [
