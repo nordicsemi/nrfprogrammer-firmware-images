@@ -21,7 +21,7 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/samples/bluetooth/mesh/light_dimmer/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/samples/bluetooth/mesh/light_dimmer/README.html"
         }
       ],
       "board": [
@@ -31,6 +31,36 @@
             {
               "name": "release",
               "file": "mesh_light_dimmer_2.5.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "release_notes": "Version build from NCS 3.1.0.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/samples/bluetooth/mesh/light_dimmer/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "mesh_light_dimmer_3.1.0_thingy53_nrf5340.zip"
             }
           ]
         }
