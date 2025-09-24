@@ -13,7 +13,7 @@
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/nrf/applications/machine_learning/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.0.0/page/nrf/applications/machine_learning/README.html"
         }
       ],
       "board": [
@@ -43,7 +43,7 @@
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/applications/machine_learning/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.3.0/page/nrf/applications/machine_learning/README.html"
         }
       ],
       "board": [
@@ -73,7 +73,7 @@
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/applications/machine_learning/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/applications/machine_learning/README.html"
         }
       ],
       "board": [
@@ -91,6 +91,36 @@
             {
               "name": "debug_rtt",
               "file": "machine_learning_2.5.0_thingy53_nrf5340_zdebug_rtt.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "release_notes": "- CONFIG_RESET_ON_FATAL_ERROR Kconfig option disabled for debug build.\n- Enabling Link Time Optimization (LTO) in the release configuration.",
+      "requires_bonding": true,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/applications/machine_learning/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "machine_learning_3.1.0_thingy53_nrf5340_zrelease.zip"
+            },
+            {
+              "name": "debug",
+              "file": "machine_learning_3.1.0_thingy53_nrf5340_zdebug.zip"
+            },
+            {
+              "name": "debug_rtt",
+              "file": "machine_learning_3.1.0_thingy53_nrf5340_zdebug_rtt.zip"
             }
           ]
         }
