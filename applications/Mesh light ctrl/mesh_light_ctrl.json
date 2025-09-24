@@ -21,7 +21,7 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-1.9.1/page/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
         }
       ],
       "board": [
@@ -51,11 +51,11 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.3.0/page/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
         },
         {
           "text": "Emergency data storage (EMDS)",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/libraries/others/emds.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.3.0/page/nrf/libraries/others/emds.html"
         }
       ],
       "board": [
@@ -89,11 +89,11 @@
         },
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
         },
         {
           "text": "Emergency data storage (EMDS)",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/libraries/others/emds.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/libraries/others/emds.html"
         }
       ],
       "board": [
@@ -103,6 +103,44 @@
             {
               "name": "release (settings)",
               "file": "mesh_light_ctrl_2.5.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "release_notes": "Build from NCS 3.1.0.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "nRF Mesh for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfmeshprovisioner"
+        },
+        {
+          "text": "nRF Mesh for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-mesh/id1380726771"
+        },
+        {
+          "text": "Documentation",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/samples/bluetooth/mesh/light_ctrl/README.html"
+        },
+        {
+          "text": "Emergency data storage (EMDS)",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/libraries/others/emds.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release (settings)",
+              "file": "mesh_light_ctrl_3.1.0_thingy53_nrf5340.zip"
+            },
+            {
+              "name": "release (emds)",
+              "file": "mesh_light_ctrl_3.1.0_thingy53_nrf5340_emds.zip"
             }
           ]
         }
