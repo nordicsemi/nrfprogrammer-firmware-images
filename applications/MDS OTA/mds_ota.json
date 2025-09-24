@@ -1,0 +1,44 @@
+{
+  "$schema": "https://nordicsemiconductor.github.io/nrfprogrammer-firmware-images/application.schema.json",
+  "app_id": "ae3ab378-6cd1-4050-a3c2-2cc616947299",
+  "app_name": "nRF Cloud Observability & OTA",
+  "user_id": "00005900-0000-1000-8000-00805F9B34FB",
+  "description": "This application demonstrates the Monitoring & Diagnostic Service (MDS) on the Thingy:53, providing observability for diagnosinbg issues and performance monitoring. It also supports over-the-air (OTA) updates using nRF Connect Device Manager app. Tap \"Check for Updates\" to download to the latest version.",
+  "tags": ["nrf cloud", "mds", "ota"],
+  "versions": [
+    {
+      "version": "3.1.1.100",
+      "release_notes": "Initial release from NCS 3.1.1. This version can be updated to 3.1.1.200 using nRF Cloud OTA.",
+      "requires_bonding": true,
+      "links": [
+        {
+          "text": "nRF Connect Device Manager for Android",
+          "url": "https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfconnectdevicemanager"
+        },
+        {
+          "text": "nRF Connect Device Manager for iOS",
+          "url": "https://apps.apple.com/us/app/nrf-connect-device-manager/id1519423539"
+        },
+        {
+          "text": "nRF Cloud",
+          "url": "https://nrfcloud.com"
+        }
+        {
+          "text": "Documentation",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.1/page/nrf/samples/bluetooth/peripheral_mds/README.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "mds_ota_3.1.1.100.thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
