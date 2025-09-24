@@ -8,16 +8,16 @@
   "versions": [
     {
       "version": "2.5.0",
-      "release_notes": "Initial release from NCS 2.5.0.",
+      "release_notes": "Initial release from NCS 2.5.0 and Matter specification 1.1.0.",
       "requires_bonding": false,
       "links": [
         {
           "text": "Documentation",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/applications/matter_weather_station/README.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/applications/matter_weather_station/README.html"
         },
         {
           "text": "Matter (Project CHIP)",
-          "url": "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.5.0/nrf/protocols/matter/index.html"
+          "url": "https://docs.nordicsemi.com/bundle/ncs-2.5.0/page/nrf/protocols/matter/index.html"
         }
       ],
       "board": [
@@ -27,6 +27,36 @@
             {
               "name": "release",
               "file": "matter_weather_station_2.5.0_thingy53_nrf5340.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "3.1.0",
+      "release_notes": "- Matter specification 1.4.2.\n- Build based on NCS 3.1.0.",
+      "requires_bonding": false,
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/applications/matter_weather_station/README.html"
+        },
+        {
+          "text": "Matter (Project CHIP)",
+          "url": "https://docs.nordicsemi.com/bundle/ncs-3.1.0/page/nrf/protocols/matter/index.html"
+        }
+      ],
+      "board": [
+        {
+          "name": "thingy53_nrf5340",
+          "build_config": [
+            {
+              "name": "release",
+              "file": "matter_weather_station_3.1.0_thingy53_nrf5340_release.zip"
+            },
+            {
+              "name": "debug",
+              "file": "matter_weather_station_3.1.0_thingy53_nrf5340_debug.zip"
             }
           ]
         }
