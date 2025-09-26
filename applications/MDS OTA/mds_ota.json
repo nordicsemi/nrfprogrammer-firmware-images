@@ -3,8 +3,8 @@
   "app_id": "ae3ab378-6cd1-4050-a3c2-2cc616947299",
   "app_name": "nRF Cloud Observability & OTA",
   "user_id": "00005900-0000-1000-8000-00805F9B34FB",
-  "description": "This application demonstrates the Monitoring & Diagnostic Service (MDS) on the Thingy:53, providing observability for diagnosinbg issues and performance monitoring. It also supports over-the-air (OTA) updates using nRF Connect Device Manager app. Tap \"Check for Updates\" to download to the latest version.",
-  "tags": ["nrf cloud", "mds", "ota"],
+  "description": "This application demonstrates the Monitoring & Diagnostic Service (MDS) on the Thingy:53, providing observability for diagnosing issues and performance monitoring. Additionally, it supports over-the-air (OTA) updates with nRF Cloud OTA.\n\nUsage:\n1. Install the sample on Thingy:53. It will advertise as \"Nordic MDS 3.1.1 (100)\".\n2. Download and open nRF Connect Device Manager app using the button below.\n3. Select \"Nordic MDS 3.1.1 (100)\".\n4. Tap \"Check for Updates\" on the Image tab to download the latest version.\n5. Tap \"Start\" button and select \"Confirm only\" mode tp begin update.\nWhen complete, Thingy:53 will advertise as \"Nordic MDS 3.1.1 (200)\".",
+  "tags": ["nrf cloud", "mds", "ota", "observability", "memfault"],
   "versions": [
     {
       "version": "3.1.1",
